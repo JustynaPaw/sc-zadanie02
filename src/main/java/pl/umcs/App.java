@@ -6,8 +6,7 @@ package pl.umcs;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ){
+        C1 c1 = C1.builder().x1(1).x2(2).x3(3).build();
     }
 }
